@@ -1,0 +1,2328 @@
+{
+ "version": "1",
+ "versionCode": "KTBCARD:1",
+ "page": {
+  "width": 215.9,
+  "height": 279.4
+ },
+ "markers": [
+  {
+   "id": 0,
+   "corner": "tl",
+   "rect": {
+    "x": 7,
+    "y": 7,
+    "w": 14,
+    "h": 14
+   }
+  },
+  {
+   "id": 1,
+   "corner": "tr",
+   "rect": {
+    "x": 194.9,
+    "y": 7,
+    "w": 14,
+    "h": 14
+   }
+  },
+  {
+   "id": 2,
+   "corner": "br",
+   "rect": {
+    "x": 194.9,
+    "y": 258.4,
+    "w": 14,
+    "h": 14
+   }
+  },
+  {
+   "id": 3,
+   "corner": "bl",
+   "rect": {
+    "x": 7,
+    "y": 258.4,
+    "w": 14,
+    "h": 14
+   }
+  }
+ ],
+ "versionCodeRect": {
+  "x": 172,
+  "y": 5,
+  "w": 18,
+  "h": 18
+ },
+ "sections": [
+  {
+   "id": "header",
+   "title": "About this cleanup"
+  },
+  {
+   "id": "common",
+   "title": "Common items (tobacco, food, drink products)"
+  },
+  {
+   "id": "local",
+   "title": "Local concern"
+  },
+  {
+   "id": "hygiene",
+   "title": "Personal hygiene"
+  },
+  {
+   "id": "smaller",
+   "title": "Pieces smaller than a quarter"
+  },
+  {
+   "id": "larger",
+   "title": "Pieces larger than a quarter"
+  },
+  {
+   "id": "other",
+   "title": "Other (common items or concerns)"
+  }
+ ],
+ "fields": [
+  {
+   "kind": "text",
+   "id": "header.name",
+   "label": "Name or group",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 10,
+    "y": 25.5,
+    "w": 25,
+    "h": 7.5
+   },
+   "textRect": {
+    "x": 35,
+    "y": 25.5,
+    "w": 100,
+    "h": 7.5
+   }
+  },
+  {
+   "kind": "number",
+   "id": "header.date",
+   "label": "Date",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 137,
+    "y": 25.5,
+    "w": 12,
+    "h": 7.5
+   },
+   "boxes": [
+    {
+     "x": 149,
+     "y": 26.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 155.7,
+     "y": 26.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 164.5,
+     "y": 26.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 171.2,
+     "y": 26.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 180,
+     "y": 26.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 186.7,
+     "y": 26.25,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "date"
+  },
+  {
+   "kind": "text",
+   "id": "header.location",
+   "label": "Location",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 10,
+    "y": 34.5,
+    "w": 25,
+    "h": 7.5
+   },
+   "textRect": {
+    "x": 35,
+    "y": 34.5,
+    "w": 100,
+    "h": 7.5
+   }
+  },
+  {
+   "kind": "number",
+   "id": "header.volunteers",
+   "label": "# of volunteers",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 137,
+    "y": 34.5,
+    "w": 22,
+    "h": 7.5
+   },
+   "boxes": [
+    {
+     "x": 159,
+     "y": 35.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 165.7,
+     "y": 35.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 172.39999999999998,
+     "y": 35.25,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "header.duration",
+   "label": "Duration (hours)",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 10,
+    "y": 43.5,
+    "w": 25,
+    "h": 7.5
+   },
+   "boxes": [
+    {
+     "x": 35,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 41.7,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 50.1,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "decimal",
+   "decimalAfter": 1
+  },
+  {
+   "kind": "number",
+   "id": "header.pounds",
+   "label": "Est. pounds",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 61,
+    "y": 43.5,
+    "w": 18,
+    "h": 7.5
+   },
+   "boxes": [
+    {
+     "x": 79,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 85.7,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.4,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.10000000000001,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "header.gallons",
+   "label": "Est. gallons",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 111,
+    "y": 43.5,
+    "w": 18,
+    "h": 7.5
+   },
+   "boxes": [
+    {
+     "x": 129,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 135.7,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 142.39999999999998,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "header.sq-miles",
+   "label": "Est. sq. miles",
+   "section": "header",
+   "role": "header",
+   "labelRect": {
+    "x": 155,
+    "y": 43.5,
+    "w": 21,
+    "h": 7.5
+   },
+   "boxes": [
+    {
+     "x": 176,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 184.4,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 191.1,
+     "y": 44.25,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "decimal",
+   "decimalAfter": 0
+  },
+  {
+   "kind": "number",
+   "id": "item.cigarette-butts",
+   "label": "Cigarette butts",
+   "section": "common",
+   "role": "item",
+   "categoryId": "cigarette-butts",
+   "labelRect": {
+    "x": 11,
+    "y": 69.5,
+    "w": 94,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 11,
+    "y": 76,
+    "w": 66.2,
+    "h": 14
+   },
+   "boxes": [
+    {
+     "x": 79.2,
+     "y": 80.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 85.9,
+     "y": 80.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 80.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 80.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.tobacco",
+   "label": "Tobacco (lighters, vapes, cigar tips, packs)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "tobacco",
+   "labelRect": {
+    "x": 11,
+    "y": 90.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 91,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 91,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 91,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 91,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bags-plastic-grocery",
+   "label": "Bags (plastic grocery)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bags-plastic-grocery",
+   "labelRect": {
+    "x": 11,
+    "y": 97.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 98,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 98,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 98,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 98,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bags-plastic-other",
+   "label": "Bags (plastic other)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bags-plastic-other",
+   "labelRect": {
+    "x": 11,
+    "y": 104.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 105,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 105,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 105,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 105,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bags-paper",
+   "label": "Bags (paper)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bags-paper",
+   "labelRect": {
+    "x": 11,
+    "y": 111.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 112,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 112,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 112,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 112,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bottles-plastic",
+   "label": "Bottles (plastic)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bottles-plastic",
+   "labelRect": {
+    "x": 11,
+    "y": 118.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 119,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 119,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 119,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 119,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bottles-glass",
+   "label": "Bottles (glass)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bottles-glass",
+   "labelRect": {
+    "x": 11,
+    "y": 125.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 126,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 126,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 126,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 126,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bottle-caps-plastic",
+   "label": "Bottle cap (plastic)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bottle-caps-plastic",
+   "labelRect": {
+    "x": 11,
+    "y": 132.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 133,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 133,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 133,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 133,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.bottle-caps-metal",
+   "label": "Bottle cap (metal)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "bottle-caps-metal",
+   "labelRect": {
+    "x": 11,
+    "y": 139.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 140,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 140,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 140,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 140,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.cans-pull-tabs",
+   "label": "Cans / pull tabs (metal)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "cans-pull-tabs",
+   "labelRect": {
+    "x": 11,
+    "y": 146.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 147,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 147,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 147,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 147,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.cups-foam",
+   "label": "Cups (foam)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "cups-foam",
+   "labelRect": {
+    "x": 11,
+    "y": 153.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 154,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 154,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 154,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 154,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.cups-plastic",
+   "label": "Cups (plastic)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "cups-plastic",
+   "labelRect": {
+    "x": 11,
+    "y": 160.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 161,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 161,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 161,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 161,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.cups-paper",
+   "label": "Cups (paper)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "cups-paper",
+   "labelRect": {
+    "x": 11,
+    "y": 167.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 168,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 168,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 168,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 168,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.food-waste",
+   "label": "Food waste",
+   "section": "common",
+   "role": "item",
+   "categoryId": "food-waste",
+   "labelRect": {
+    "x": 11,
+    "y": 174.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 175,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 175,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 175,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 175,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.food-wrappers",
+   "label": "Food wrappers",
+   "section": "common",
+   "role": "item",
+   "categoryId": "food-wrappers",
+   "labelRect": {
+    "x": 11,
+    "y": 181.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 182,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 182,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 182,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 182,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.lids",
+   "label": "Lids",
+   "section": "common",
+   "role": "item",
+   "categoryId": "lids",
+   "labelRect": {
+    "x": 11,
+    "y": 188.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 189,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 189,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 189,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 189,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.plates-foam",
+   "label": "Plates (foam)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "plates-foam",
+   "labelRect": {
+    "x": 11,
+    "y": 195.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 196,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 196,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 196,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 196,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.plates-plastic",
+   "label": "Plates (plastic)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "plates-plastic",
+   "labelRect": {
+    "x": 11,
+    "y": 202.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 203,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 203,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 203,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 203,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.plates-paper",
+   "label": "Plates (paper)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "plates-paper",
+   "labelRect": {
+    "x": 11,
+    "y": 209.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 210,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 210,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 210,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 210,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.straws-stirs",
+   "label": "Straws/stirs/straw wrappers (plastic)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "straws-stirs",
+   "labelRect": {
+    "x": 11,
+    "y": 216.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 217,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 217,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 217,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 217,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.takeout-foam",
+   "label": "Take out container (foam)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "takeout-foam",
+   "labelRect": {
+    "x": 11,
+    "y": 223.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 224,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 224,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 224,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 224,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.takeout-plastic",
+   "label": "Take out container (plastic)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "takeout-plastic",
+   "labelRect": {
+    "x": 11,
+    "y": 230.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 231,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 231,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 231,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 231,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.takeout-paper",
+   "label": "Take out container (paper)",
+   "section": "common",
+   "role": "item",
+   "categoryId": "takeout-paper",
+   "labelRect": {
+    "x": 11,
+    "y": 237.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 238,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 238,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 238,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 238,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.utensils",
+   "label": "Utensils",
+   "section": "common",
+   "role": "item",
+   "categoryId": "utensils",
+   "labelRect": {
+    "x": 11,
+    "y": 244.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 55,
+    "y": 245,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 85.9,
+     "y": 245,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 92.60000000000001,
+     "y": 245,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 99.30000000000001,
+     "y": 245,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.dog-waste-bagged",
+   "label": "Dog waste in bag",
+   "section": "local",
+   "role": "item",
+   "categoryId": "dog-waste-bagged",
+   "labelRect": {
+    "x": 111,
+    "y": 69.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 70,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 70,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 70,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 70,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.dog-waste-unbagged",
+   "label": "Dog waste not in bag (piles)",
+   "section": "local",
+   "role": "item",
+   "categoryId": "dog-waste-unbagged",
+   "labelRect": {
+    "x": 111,
+    "y": 76.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 77,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 77,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 77,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 77,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.wildlife-waste-with-trash",
+   "label": "Wildlife waste with trash in it (piles)",
+   "section": "local",
+   "role": "item",
+   "categoryId": "wildlife-waste-with-trash",
+   "labelRect": {
+    "x": 111,
+    "y": 83.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 84,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 84,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 84,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 84,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.sleds",
+   "label": "Sleds (large pieces)",
+   "section": "local",
+   "role": "item",
+   "categoryId": "sleds",
+   "labelRect": {
+    "x": 111,
+    "y": 90.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 91,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 91,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 91,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 91,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.fireworks-consumer",
+   "label": "Fireworks & celebration items (consumer)",
+   "section": "local",
+   "role": "item",
+   "categoryId": "fireworks-consumer",
+   "labelRect": {
+    "x": 111,
+    "y": 97.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 98,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 98,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 98,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 98,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.fireworks-commercial",
+   "label": "Fireworks (commercial)",
+   "section": "local",
+   "role": "item",
+   "categoryId": "fireworks-commercial",
+   "labelRect": {
+    "x": 111,
+    "y": 104.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 105,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 105,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 105,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 105,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.covid-items",
+   "label": "COVID items (mask, wipes, gloves)",
+   "section": "hygiene",
+   "role": "item",
+   "categoryId": "covid-items",
+   "labelRect": {
+    "x": 111,
+    "y": 117,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 117.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 117.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 117.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 117.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.sanitary-items",
+   "label": "Sanitary items (diapers, tampon)",
+   "section": "hygiene",
+   "role": "item",
+   "categoryId": "sanitary-items",
+   "labelRect": {
+    "x": 111,
+    "y": 124,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 124.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 124.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 124.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 124.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.toilet-paper",
+   "label": "Toilet paper",
+   "section": "hygiene",
+   "role": "item",
+   "categoryId": "toilet-paper",
+   "labelRect": {
+    "x": 111,
+    "y": 131,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 131.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 131.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 131.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 131.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.human-waste",
+   "label": "Human waste (don't pick up)",
+   "section": "hygiene",
+   "role": "item",
+   "categoryId": "human-waste",
+   "labelRect": {
+    "x": 111,
+    "y": 138,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 138.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 138.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 138.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 138.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.protection",
+   "label": "Protection (band aid, condom)",
+   "section": "hygiene",
+   "role": "item",
+   "categoryId": "protection",
+   "labelRect": {
+    "x": 111,
+    "y": 145,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 145.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 145.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 145.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 145.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.syringes",
+   "label": "Syringes (don't pick up)",
+   "section": "hygiene",
+   "role": "item",
+   "categoryId": "syringes",
+   "labelRect": {
+    "x": 111,
+    "y": 152,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 152.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 152.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 152.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 152.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.small-foam",
+   "label": "Foam pieces",
+   "section": "smaller",
+   "role": "item",
+   "categoryId": "small-foam",
+   "categoryName": "Foam pieces (smaller than a quarter)",
+   "labelRect": {
+    "x": 111,
+    "y": 164.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 165,
+    "w": 22.19999999999999,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 179.2,
+     "y": 165,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 185.89999999999998,
+     "y": 165,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.59999999999997,
+     "y": 165,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999995,
+     "y": 165,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.small-glass",
+   "label": "Glass pieces",
+   "section": "smaller",
+   "role": "item",
+   "categoryId": "small-glass",
+   "categoryName": "Glass pieces (smaller than a quarter)",
+   "labelRect": {
+    "x": 111,
+    "y": 171.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 172,
+    "w": 22.19999999999999,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 179.2,
+     "y": 172,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 185.89999999999998,
+     "y": 172,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.59999999999997,
+     "y": 172,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999995,
+     "y": 172,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.small-plastic",
+   "label": "Plastic pieces",
+   "section": "smaller",
+   "role": "item",
+   "categoryId": "small-plastic",
+   "categoryName": "Plastic pieces (smaller than a quarter)",
+   "labelRect": {
+    "x": 111,
+    "y": 178.5,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 179,
+    "w": 22.19999999999999,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 179.2,
+     "y": 179,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 185.89999999999998,
+     "y": 179,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.59999999999997,
+     "y": 179,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999995,
+     "y": 179,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.large-foam",
+   "label": "Foam pieces",
+   "section": "larger",
+   "role": "item",
+   "categoryId": "large-foam",
+   "categoryName": "Foam pieces (larger than a quarter)",
+   "labelRect": {
+    "x": 111,
+    "y": 191,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 191.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 191.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 191.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 191.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.large-glass",
+   "label": "Glass pieces",
+   "section": "larger",
+   "role": "item",
+   "categoryId": "large-glass",
+   "categoryName": "Glass pieces (larger than a quarter)",
+   "labelRect": {
+    "x": 111,
+    "y": 198,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 198.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 198.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 198.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 198.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "number",
+   "id": "item.large-plastic",
+   "label": "Plastic pieces",
+   "section": "larger",
+   "role": "item",
+   "categoryId": "large-plastic",
+   "categoryName": "Plastic pieces (larger than a quarter)",
+   "labelRect": {
+    "x": 111,
+    "y": 205,
+    "w": 43,
+    "h": 7
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 205.5,
+    "w": 28.900000000000006,
+    "h": 6
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 205.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 205.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 205.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "text",
+   "id": "other.1.name",
+   "label": "Other item 1 name",
+   "section": "other",
+   "role": "other-name",
+   "otherRow": 1,
+   "textRect": {
+    "x": 111,
+    "y": 221,
+    "w": 43,
+    "h": 7
+   }
+  },
+  {
+   "kind": "number",
+   "id": "other.1.count",
+   "label": "Other item 1 count",
+   "section": "other",
+   "role": "other-count",
+   "otherRow": 1,
+   "labelRect": {
+    "x": 111,
+    "y": 220.5,
+    "w": 43,
+    "h": 8
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 221,
+    "w": 28.900000000000006,
+    "h": 7
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 221.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 221.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 221.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "text",
+   "id": "other.2.name",
+   "label": "Other item 2 name",
+   "section": "other",
+   "role": "other-name",
+   "otherRow": 2,
+   "textRect": {
+    "x": 111,
+    "y": 229,
+    "w": 43,
+    "h": 7
+   }
+  },
+  {
+   "kind": "number",
+   "id": "other.2.count",
+   "label": "Other item 2 count",
+   "section": "other",
+   "role": "other-count",
+   "otherRow": 2,
+   "labelRect": {
+    "x": 111,
+    "y": 228.5,
+    "w": 43,
+    "h": 8
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 229,
+    "w": 28.900000000000006,
+    "h": 7
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 229.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 229.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 229.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "text",
+   "id": "other.3.name",
+   "label": "Other item 3 name",
+   "section": "other",
+   "role": "other-name",
+   "otherRow": 3,
+   "textRect": {
+    "x": 111,
+    "y": 237,
+    "w": 43,
+    "h": 7
+   }
+  },
+  {
+   "kind": "number",
+   "id": "other.3.count",
+   "label": "Other item 3 count",
+   "section": "other",
+   "role": "other-count",
+   "otherRow": 3,
+   "labelRect": {
+    "x": 111,
+    "y": 236.5,
+    "w": 43,
+    "h": 8
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 237,
+    "w": 28.900000000000006,
+    "h": 7
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 237.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 237.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 237.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  },
+  {
+   "kind": "text",
+   "id": "other.4.name",
+   "label": "Other item 4 name",
+   "section": "other",
+   "role": "other-name",
+   "otherRow": 4,
+   "textRect": {
+    "x": 111,
+    "y": 245,
+    "w": 43,
+    "h": 7
+   }
+  },
+  {
+   "kind": "number",
+   "id": "other.4.count",
+   "label": "Other item 4 count",
+   "section": "other",
+   "role": "other-count",
+   "otherRow": 4,
+   "labelRect": {
+    "x": 111,
+    "y": 244.5,
+    "w": 43,
+    "h": 8
+   },
+   "tallyRect": {
+    "x": 155,
+    "y": 245,
+    "w": 28.900000000000006,
+    "h": 7
+   },
+   "boxes": [
+    {
+     "x": 185.9,
+     "y": 245.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 192.6,
+     "y": 245.5,
+     "w": 6.2,
+     "h": 6
+    },
+    {
+     "x": 199.29999999999998,
+     "y": 245.5,
+     "w": 6.2,
+     "h": 6
+    }
+   ],
+   "format": "integer"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "emnist",
+  "epochs": 6,
+  "parameters": 107682,
+  "bytes": 431517,
+  "heldOutAugmentedAccuracy": 0.9905,
+  "heldOutCleanAccuracy": 0.9963,
+  "input": {
+    "shape": [
+      1,
+      28,
+      28
+    ],
+    "range": [
+      0,
+      1
+    ],
+    "inkIsHigh": true
+  }
+}

@@ -1,0 +1,2707 @@
+[
+ {
+  "name": "scan-pen",
+  "file": "scan-pen.jpg",
+  "description": "Flatbed scan, black pen, many rows filled",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "051526",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "05/15/26"
+   },
+   "header.volunteers": {
+    "written": "23",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "23"
+   },
+   "header.duration": {
+    "written": "22",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2.2"
+   },
+   "header.pounds": {
+    "written": "144",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "144"
+   },
+   "item.bags-plastic-other": {
+    "written": "25",
+    "startBox": 0,
+    "tally": 25,
+    "outside": false,
+    "expectFlags": [],
+    "value": "25"
+   },
+   "item.cans-pull-tabs": {
+    "written": "18",
+    "startBox": 0,
+    "tally": 18,
+    "outside": false,
+    "expectFlags": [],
+    "value": "18"
+   },
+   "item.cups-plastic": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.cups-paper": {
+    "written": "13",
+    "startBox": 0,
+    "tally": 13,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "item.food-waste": {
+    "written": "1",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.food-wrappers": {
+    "written": "17",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.lids": {
+    "written": "28",
+    "startBox": 0,
+    "tally": 28,
+    "outside": false,
+    "expectFlags": [],
+    "value": "28"
+   },
+   "item.plates-foam": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.utensils": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.dog-waste-unbagged": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "item.sleds": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.fireworks-commercial": {
+    "written": "13",
+    "startBox": 0,
+    "tally": 13,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "item.covid-items": {
+    "written": "9",
+    "startBox": 0,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.sanitary-items": {
+    "written": "18",
+    "startBox": 0,
+    "tally": 18,
+    "outside": false,
+    "expectFlags": [],
+    "value": "18"
+   },
+   "item.toilet-paper": {
+    "written": "15",
+    "startBox": 0,
+    "tally": 15,
+    "outside": false,
+    "expectFlags": [],
+    "value": "15"
+   },
+   "item.human-waste": {
+    "written": "29",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.syringes": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.small-foam": {
+    "written": "42",
+    "startBox": 0,
+    "tally": 42,
+    "outside": false,
+    "expectFlags": [],
+    "value": "42"
+   },
+   "item.small-plastic": {
+    "written": "23",
+    "startBox": 0,
+    "tally": 23,
+    "outside": false,
+    "expectFlags": [],
+    "value": "23"
+   },
+   "item.large-foam": {
+    "written": "8",
+    "startBox": 0,
+    "tally": 8,
+    "outside": false,
+    "expectFlags": [],
+    "value": "8"
+   },
+   "item.large-glass": {
+    "written": "4",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "other.1.count": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "other.2.count": {
+    "written": "7",
+    "startBox": 0,
+    "tally": 7,
+    "outside": false,
+    "expectFlags": [],
+    "value": "7"
+   }
+  },
+  "text": {
+   "header.name": "SOUTH SHORE ROTARY",
+   "header.location": "COVE EAST",
+   "other.1.name": "WAGON",
+   "other.2.name": "BALLOONS"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "scan-blue-pen",
+  "file": "scan-blue-pen.jpg",
+  "description": "Flatbed scan, blue pen",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "081826",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "08/18/26"
+   },
+   "header.volunteers": {
+    "written": "17",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "header.duration": {
+    "written": "24",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2.4"
+   },
+   "header.pounds": {
+    "written": "240",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "240"
+   },
+   "item.tobacco": {
+    "written": "24",
+    "startBox": 0,
+    "tally": 24,
+    "outside": false,
+    "expectFlags": [],
+    "value": "24"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "13",
+    "startBox": 0,
+    "tally": 13,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "item.bags-paper": {
+    "written": "24",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "24"
+   },
+   "item.bottle-caps-metal": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cups-foam": {
+    "written": "25",
+    "startBox": 0,
+    "tally": 25,
+    "outside": false,
+    "expectFlags": [],
+    "value": "25"
+   },
+   "item.cups-paper": {
+    "written": "13",
+    "startBox": 0,
+    "tally": 13,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "item.plates-foam": {
+    "written": "10",
+    "startBox": 0,
+    "tally": 10,
+    "outside": false,
+    "expectFlags": [],
+    "value": "10"
+   },
+   "item.plates-plastic": {
+    "written": "26",
+    "startBox": 1,
+    "tally": 26,
+    "outside": false,
+    "expectFlags": [],
+    "value": "26"
+   },
+   "item.takeout-plastic": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.takeout-paper": {
+    "written": "30",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "30"
+   },
+   "item.utensils": {
+    "written": "2",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.dog-waste-bagged": {
+    "written": "7",
+    "startBox": 2,
+    "tally": 7,
+    "outside": false,
+    "expectFlags": [],
+    "value": "7"
+   },
+   "item.dog-waste-unbagged": {
+    "written": "15",
+    "startBox": 0,
+    "tally": 15,
+    "outside": false,
+    "expectFlags": [],
+    "value": "15"
+   },
+   "item.wildlife-waste-with-trash": {
+    "written": "4",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.fireworks-consumer": {
+    "written": "1",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.sanitary-items": {
+    "written": "1",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.toilet-paper": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.small-foam": {
+    "written": "34",
+    "startBox": 2,
+    "tally": 34,
+    "outside": false,
+    "expectFlags": [],
+    "value": "34"
+   },
+   "item.small-plastic": {
+    "written": "29",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.large-plastic": {
+    "written": "26",
+    "startBox": 0,
+    "tally": 26,
+    "outside": false,
+    "expectFlags": [],
+    "value": "26"
+   },
+   "other.1.count": {
+    "written": "6",
+    "startBox": 0,
+    "tally": 6,
+    "outside": false,
+    "expectFlags": [],
+    "value": "6"
+   }
+  },
+  "text": {
+   "header.name": "SMITH FAMILY",
+   "header.location": "NEVADA BEACH",
+   "other.1.name": "CART"
+  },
+  "ink": "blue"
+ },
+ {
+  "name": "phone-angled-1",
+  "file": "phone-angled-1.jpg",
+  "description": "Phone photo at an angle on a cluttered table",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "091026",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "09/10/26"
+   },
+   "header.volunteers": {
+    "written": "24",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "24"
+   },
+   "header.duration": {
+    "written": "33",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3.3"
+   },
+   "header.pounds": {
+    "written": "301",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "301"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.bottles-plastic": {
+    "written": "11",
+    "startBox": 0,
+    "tally": 11,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.cans-pull-tabs": {
+    "written": "10",
+    "startBox": 0,
+    "tally": 10,
+    "outside": false,
+    "expectFlags": [],
+    "value": "10"
+   },
+   "item.lids": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.plates-plastic": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.takeout-foam": {
+    "written": "21",
+    "startBox": 0,
+    "tally": 21,
+    "outside": false,
+    "expectFlags": [],
+    "value": "21"
+   },
+   "item.takeout-plastic": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.takeout-paper": {
+    "written": "5",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "item.utensils": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.dog-waste-bagged": {
+    "written": "9",
+    "startBox": 0,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.wildlife-waste-with-trash": {
+    "written": "13",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "item.fireworks-consumer": {
+    "written": "19",
+    "startBox": 0,
+    "tally": 19,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.covid-items": {
+    "written": "10",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "10"
+   },
+   "item.toilet-paper": {
+    "written": "7",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "7"
+   },
+   "item.protection": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.small-glass": {
+    "written": "27",
+    "startBox": 0,
+    "tally": 27,
+    "outside": false,
+    "expectFlags": [],
+    "value": "27"
+   },
+   "item.small-plastic": {
+    "written": "53",
+    "startBox": 0,
+    "tally": 53,
+    "outside": false,
+    "expectFlags": [],
+    "value": "53"
+   },
+   "item.large-plastic": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   }
+  },
+  "text": {
+   "header.name": "SOUTH SHORE ROTARY",
+   "header.location": "COVE EAST"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "phone-angled-2",
+  "file": "phone-angled-2.jpg",
+  "description": "Phone photo, strong perspective, warm light",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "071926",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "07/19/26"
+   },
+   "header.volunteers": {
+    "written": "16",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "header.duration": {
+    "written": "31",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3.1"
+   },
+   "header.pounds": {
+    "written": "243",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "243"
+   },
+   "item.cigarette-butts": {
+    "written": "33",
+    "startBox": 2,
+    "tally": 33,
+    "outside": false,
+    "expectFlags": [],
+    "value": "33"
+   },
+   "item.bags-plastic-other": {
+    "written": "9",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.bags-paper": {
+    "written": "1",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bottles-plastic": {
+    "written": "21",
+    "startBox": 0,
+    "tally": 21,
+    "outside": false,
+    "expectFlags": [],
+    "value": "21"
+   },
+   "item.bottle-caps-metal": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cans-pull-tabs": {
+    "written": "2",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.cups-foam": {
+    "written": "28",
+    "startBox": 0,
+    "tally": 28,
+    "outside": false,
+    "expectFlags": [],
+    "value": "28"
+   },
+   "item.cups-plastic": {
+    "written": "9",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.food-waste": {
+    "written": "23",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "23"
+   },
+   "item.plates-foam": {
+    "written": "8",
+    "startBox": 0,
+    "tally": 8,
+    "outside": false,
+    "expectFlags": [],
+    "value": "8"
+   },
+   "item.straws-stirs": {
+    "written": "29",
+    "startBox": 1,
+    "tally": 29,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.takeout-foam": {
+    "written": "1",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.takeout-paper": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.utensils": {
+    "written": "2",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.sleds": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.fireworks-commercial": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.covid-items": {
+    "written": "25",
+    "startBox": 0,
+    "tally": 25,
+    "outside": false,
+    "expectFlags": [],
+    "value": "25"
+   },
+   "item.small-glass": {
+    "written": "50",
+    "startBox": 0,
+    "tally": 50,
+    "outside": false,
+    "expectFlags": [],
+    "value": "50"
+   },
+   "item.large-glass": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "other.1.count": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   }
+  },
+  "text": {
+   "header.name": "KTB VOLUNTEERS",
+   "header.location": "KIVA BEACH",
+   "other.1.name": "KAYAK PADDLE"
+  },
+  "ink": "blue"
+ },
+ {
+  "name": "phone-shadow",
+  "file": "phone-shadow.jpg",
+  "description": "Phone photo with a heavy shadow across the card",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "072726",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "07/27/26"
+   },
+   "header.volunteers": {
+    "written": "13",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "header.duration": {
+    "written": "16",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1.6"
+   },
+   "header.pounds": {
+    "written": "84",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "84"
+   },
+   "item.cigarette-butts": {
+    "written": "52",
+    "startBox": 0,
+    "tally": 52,
+    "outside": false,
+    "expectFlags": [],
+    "value": "52"
+   },
+   "item.bottles-plastic": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bottles-glass": {
+    "written": "14",
+    "startBox": 0,
+    "tally": 14,
+    "outside": false,
+    "expectFlags": [],
+    "value": "14"
+   },
+   "item.bottle-caps-metal": {
+    "written": "25",
+    "startBox": 0,
+    "tally": 25,
+    "outside": false,
+    "expectFlags": [],
+    "value": "25"
+   },
+   "item.cans-pull-tabs": {
+    "written": "9",
+    "startBox": 2,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.cups-foam": {
+    "written": "1",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cups-plastic": {
+    "written": "3",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.cups-paper": {
+    "written": "26",
+    "startBox": 0,
+    "tally": 26,
+    "outside": false,
+    "expectFlags": [],
+    "value": "26"
+   },
+   "item.food-waste": {
+    "written": "6",
+    "startBox": 2,
+    "tally": 6,
+    "outside": false,
+    "expectFlags": [],
+    "value": "6"
+   },
+   "item.plates-paper": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.straws-stirs": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.takeout-plastic": {
+    "written": "12",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "12"
+   },
+   "item.dog-waste-unbagged": {
+    "written": "7",
+    "startBox": 2,
+    "tally": 7,
+    "outside": false,
+    "expectFlags": [],
+    "value": "7"
+   },
+   "item.sleds": {
+    "written": "7",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "7"
+   },
+   "item.fireworks-consumer": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.fireworks-commercial": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.sanitary-items": {
+    "written": "8",
+    "startBox": 2,
+    "tally": 8,
+    "outside": false,
+    "expectFlags": [],
+    "value": "8"
+   },
+   "item.human-waste": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.syringes": {
+    "written": "13",
+    "startBox": 0,
+    "tally": 13,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   },
+   "item.small-foam": {
+    "written": "57",
+    "startBox": 0,
+    "tally": 57,
+    "outside": false,
+    "expectFlags": [],
+    "value": "57"
+   },
+   "item.small-glass": {
+    "written": "49",
+    "startBox": 0,
+    "tally": 49,
+    "outside": false,
+    "expectFlags": [],
+    "value": "49"
+   },
+   "item.large-plastic": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   }
+  },
+  "text": {
+   "header.name": "TAHOE TRASH CREW",
+   "header.location": "NEVADA BEACH"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "phone-pencil",
+  "file": "phone-pencil.jpg",
+  "description": "Phone photo of a card filled in pencil",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "061326",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "06/13/26"
+   },
+   "header.volunteers": {
+    "written": "34",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "34"
+   },
+   "header.duration": {
+    "written": "35",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3.5"
+   },
+   "header.pounds": {
+    "written": "41",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "41"
+   },
+   "item.cigarette-butts": {
+    "written": "56",
+    "startBox": 0,
+    "tally": 56,
+    "outside": false,
+    "expectFlags": [],
+    "value": "56"
+   },
+   "item.tobacco": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bags-plastic-other": {
+    "written": "28",
+    "startBox": 0,
+    "tally": 28,
+    "outside": false,
+    "expectFlags": [],
+    "value": "28"
+   },
+   "item.bottles-glass": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.bottle-caps-plastic": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.bottle-caps-metal": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cans-pull-tabs": {
+    "written": "2",
+    "startBox": 2,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.cups-plastic": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.food-wrappers": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.plates-plastic": {
+    "written": "11",
+    "startBox": 0,
+    "tally": 11,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.straws-stirs": {
+    "written": "17",
+    "startBox": 1,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.takeout-plastic": {
+    "written": "28",
+    "startBox": 1,
+    "tally": 28,
+    "outside": false,
+    "expectFlags": [],
+    "value": "28"
+   },
+   "item.utensils": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "item.dog-waste-bagged": {
+    "written": "1",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.dog-waste-unbagged": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.wildlife-waste-with-trash": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.covid-items": {
+    "written": "3",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.sanitary-items": {
+    "written": "29",
+    "startBox": 0,
+    "tally": 29,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.small-foam": {
+    "written": "30",
+    "startBox": 0,
+    "tally": 30,
+    "outside": false,
+    "expectFlags": [],
+    "value": "30"
+   },
+   "item.large-glass": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.large-plastic": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "other.1.count": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   }
+  },
+  "text": {
+   "header.name": "SMITH FAMILY",
+   "header.location": "POPE BEACH",
+   "other.1.name": "FISHING LINE"
+  },
+  "ink": "pencil"
+ },
+ {
+  "name": "upside-down",
+  "file": "upside-down.jpg",
+  "description": "Card photographed upside down",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "052726",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "05/27/26"
+   },
+   "header.volunteers": {
+    "written": "35",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "35"
+   },
+   "header.duration": {
+    "written": "36",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3.6"
+   },
+   "header.pounds": {
+    "written": "166",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "166"
+   },
+   "item.bags-paper": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bottles-plastic": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.bottle-caps-plastic": {
+    "written": "14",
+    "startBox": 0,
+    "tally": 14,
+    "outside": false,
+    "expectFlags": [],
+    "value": "14"
+   },
+   "item.bottle-caps-metal": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.cups-foam": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.cups-paper": {
+    "written": "23",
+    "startBox": 0,
+    "tally": 23,
+    "outside": false,
+    "expectFlags": [],
+    "value": "23"
+   },
+   "item.food-wrappers": {
+    "written": "11",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.lids": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.plates-plastic": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.takeout-foam": {
+    "written": "19",
+    "startBox": 0,
+    "tally": 19,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.takeout-paper": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.dog-waste-unbagged": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.wildlife-waste-with-trash": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.toilet-paper": {
+    "written": "14",
+    "startBox": 1,
+    "tally": 14,
+    "outside": false,
+    "expectFlags": [],
+    "value": "14"
+   },
+   "item.protection": {
+    "written": "30",
+    "startBox": 0,
+    "tally": 30,
+    "outside": false,
+    "expectFlags": [],
+    "value": "30"
+   },
+   "item.syringes": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.small-foam": {
+    "written": "57",
+    "startBox": 0,
+    "tally": 57,
+    "outside": false,
+    "expectFlags": [],
+    "value": "57"
+   }
+  },
+  "text": {
+   "header.name": "KTB VOLUNTEERS",
+   "header.location": "POPE BEACH"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "sideways",
+  "file": "sideways.jpg",
+  "description": "Card photographed sideways",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "051626",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "05/16/26"
+   },
+   "header.volunteers": {
+    "written": "3",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "header.duration": {
+    "written": "17",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1.7"
+   },
+   "header.pounds": {
+    "written": "80",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "80"
+   },
+   "item.tobacco": {
+    "written": "14",
+    "startBox": 0,
+    "tally": 14,
+    "outside": false,
+    "expectFlags": [],
+    "value": "14"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "6",
+    "startBox": 0,
+    "tally": 6,
+    "outside": false,
+    "expectFlags": [],
+    "value": "6"
+   },
+   "item.bags-plastic-other": {
+    "written": "9",
+    "startBox": 0,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.bags-paper": {
+    "written": "1",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bottles-plastic": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.cans-pull-tabs": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.cups-paper": {
+    "written": "11",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.food-waste": {
+    "written": "22",
+    "startBox": 1,
+    "tally": 22,
+    "outside": false,
+    "expectFlags": [],
+    "value": "22"
+   },
+   "item.food-wrappers": {
+    "written": "6",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "6"
+   },
+   "item.plates-plastic": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.straws-stirs": {
+    "written": "1",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.takeout-plastic": {
+    "written": "11",
+    "startBox": 0,
+    "tally": 11,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.utensils": {
+    "written": "4",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.dog-waste-bagged": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.dog-waste-unbagged": {
+    "written": "30",
+    "startBox": 0,
+    "tally": 30,
+    "outside": false,
+    "expectFlags": [],
+    "value": "30"
+   },
+   "item.fireworks-consumer": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.covid-items": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.sanitary-items": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.toilet-paper": {
+    "written": "9",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.protection": {
+    "written": "5",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "item.syringes": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.large-foam": {
+    "written": "4",
+    "startBox": 2,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.large-glass": {
+    "written": "13",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   }
+  },
+  "text": {
+   "header.name": "SMITH FAMILY",
+   "header.location": "ZEPHYR COVE"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "special-cases",
+  "file": "special-cases.jpg",
+  "description": "Rows with tally but no total, a disagreeing total, a gap between digits, and writing outside the boxes",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "091326",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "09/13/26"
+   },
+   "header.volunteers": {
+    "written": "23",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "23"
+   },
+   "header.duration": {
+    "written": "14",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1.4"
+   },
+   "header.pounds": {
+    "written": "227",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "227"
+   },
+   "item.tobacco": {
+    "written": "",
+    "startBox": 0,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [
+     "tally-no-total"
+    ],
+    "value": ""
+   },
+   "item.bags-paper": {
+    "written": "29",
+    "startBox": 0,
+    "tally": 29,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.cans-pull-tabs": {
+    "written": "82",
+    "startBox": 0,
+    "tally": 28,
+    "outside": false,
+    "expectFlags": [
+     "tally-total-disagree"
+    ],
+    "value": "82"
+   },
+   "item.cups-foam": {
+    "written": "63",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [
+     "gap-between-boxes"
+    ],
+    "value": "63"
+   },
+   "item.food-wrappers": {
+    "written": "8",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "8"
+   },
+   "item.lids": {
+    "written": "19",
+    "startBox": 0,
+    "tally": 19,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.plates-foam": {
+    "written": "22",
+    "startBox": 0,
+    "tally": 22,
+    "outside": false,
+    "expectFlags": [],
+    "value": "22"
+   },
+   "item.straws-stirs": {
+    "written": "",
+    "startBox": 0,
+    "tally": null,
+    "outside": true,
+    "expectFlags": [
+     "outside-boxes"
+    ],
+    "value": ""
+   },
+   "item.utensils": {
+    "written": "9",
+    "startBox": 2,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.large-glass": {
+    "written": "16",
+    "startBox": 0,
+    "tally": 16,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "item.large-plastic": {
+    "written": "13",
+    "startBox": 1,
+    "tally": 13,
+    "outside": false,
+    "expectFlags": [],
+    "value": "13"
+   }
+  },
+  "text": {
+   "header.name": "BIJOU SCOUTS",
+   "header.location": "COVE EAST"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "blank",
+  "file": "blank.jpg",
+  "description": "A blank card, photographed",
+  "expect": {
+   "status": "read",
+   "versionCode": "KTBCARD:1"
+  },
+  "numbers": {},
+  "text": {},
+  "ink": "pen"
+ },
+ {
+  "name": "cropped-corner",
+  "file": "cropped-corner.jpg",
+  "description": "One corner marker cut off the edge of the photo",
+  "expect": {
+   "status": "rejected",
+   "code": "not-in-frame"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "071226",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "07/12/26"
+   },
+   "header.volunteers": {
+    "written": "20",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "header.duration": {
+    "written": "31",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3.1"
+   },
+   "header.pounds": {
+    "written": "149",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "149"
+   },
+   "item.cigarette-butts": {
+    "written": "32",
+    "startBox": 0,
+    "tally": 32,
+    "outside": false,
+    "expectFlags": [],
+    "value": "32"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "27",
+    "startBox": 0,
+    "tally": 27,
+    "outside": false,
+    "expectFlags": [],
+    "value": "27"
+   },
+   "item.bottles-plastic": {
+    "written": "26",
+    "startBox": 0,
+    "tally": 26,
+    "outside": false,
+    "expectFlags": [],
+    "value": "26"
+   },
+   "item.bottles-glass": {
+    "written": "20",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.bottle-caps-plastic": {
+    "written": "24",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "24"
+   },
+   "item.cans-pull-tabs": {
+    "written": "1",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cups-foam": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "item.cups-plastic": {
+    "written": "1",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cups-paper": {
+    "written": "17",
+    "startBox": 1,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.food-waste": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.plates-plastic": {
+    "written": "20",
+    "startBox": 1,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.utensils": {
+    "written": "27",
+    "startBox": 1,
+    "tally": 27,
+    "outside": false,
+    "expectFlags": [],
+    "value": "27"
+   },
+   "item.wildlife-waste-with-trash": {
+    "written": "29",
+    "startBox": 0,
+    "tally": 29,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.sleds": {
+    "written": "11",
+    "startBox": 0,
+    "tally": 11,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.fireworks-consumer": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.toilet-paper": {
+    "written": "12",
+    "startBox": 0,
+    "tally": 12,
+    "outside": false,
+    "expectFlags": [],
+    "value": "12"
+   },
+   "item.human-waste": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.small-plastic": {
+    "written": "57",
+    "startBox": 2,
+    "tally": 57,
+    "outside": false,
+    "expectFlags": [],
+    "value": "57"
+   },
+   "item.large-glass": {
+    "written": "14",
+    "startBox": 0,
+    "tally": 14,
+    "outside": false,
+    "expectFlags": [],
+    "value": "14"
+   }
+  },
+  "text": {
+   "header.name": "SOUTH SHORE ROTARY",
+   "header.location": "ZEPHYR COVE"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "missing-qr",
+  "file": "missing-qr.jpg",
+  "description": "Version code covered up",
+  "expect": {
+   "status": "rejected",
+   "code": "unknown-version"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "092826",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "09/28/26"
+   },
+   "header.volunteers": {
+    "written": "35",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "35"
+   },
+   "header.duration": {
+    "written": "10",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1.0"
+   },
+   "header.pounds": {
+    "written": "224",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "224"
+   },
+   "item.cigarette-butts": {
+    "written": "52",
+    "startBox": 0,
+    "tally": 52,
+    "outside": false,
+    "expectFlags": [],
+    "value": "52"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "4",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.bags-paper": {
+    "written": "16",
+    "startBox": 0,
+    "tally": 16,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "item.bottles-plastic": {
+    "written": "2",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.bottles-glass": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.bottle-caps-metal": {
+    "written": "11",
+    "startBox": 0,
+    "tally": 11,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.cans-pull-tabs": {
+    "written": "9",
+    "startBox": 0,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.cups-paper": {
+    "written": "10",
+    "startBox": 1,
+    "tally": 10,
+    "outside": false,
+    "expectFlags": [],
+    "value": "10"
+   },
+   "item.food-waste": {
+    "written": "19",
+    "startBox": 0,
+    "tally": 19,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.plates-foam": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.plates-plastic": {
+    "written": "17",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.straws-stirs": {
+    "written": "4",
+    "startBox": 2,
+    "tally": 4,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.takeout-foam": {
+    "written": "12",
+    "startBox": 1,
+    "tally": 12,
+    "outside": false,
+    "expectFlags": [],
+    "value": "12"
+   },
+   "item.utensils": {
+    "written": "19",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.sleds": {
+    "written": "16",
+    "startBox": 0,
+    "tally": 16,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "item.covid-items": {
+    "written": "5",
+    "startBox": 0,
+    "tally": 5,
+    "outside": false,
+    "expectFlags": [],
+    "value": "5"
+   },
+   "item.sanitary-items": {
+    "written": "2",
+    "startBox": 0,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.human-waste": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.syringes": {
+    "written": "30",
+    "startBox": 1,
+    "tally": 30,
+    "outside": false,
+    "expectFlags": [],
+    "value": "30"
+   },
+   "item.small-foam": {
+    "written": "36",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "36"
+   },
+   "item.small-plastic": {
+    "written": "37",
+    "startBox": 0,
+    "tally": 37,
+    "outside": false,
+    "expectFlags": [],
+    "value": "37"
+   },
+   "item.large-glass": {
+    "written": "1",
+    "startBox": 2,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   }
+  },
+  "text": {
+   "header.name": "KTB VOLUNTEERS",
+   "header.location": "NEVADA BEACH"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "unknown-version",
+  "file": "unknown-version.jpg",
+  "description": "Version code for a card version this app doesn't ship",
+  "expect": {
+   "status": "rejected",
+   "code": "unknown-version"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "061926",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "06/19/26"
+   },
+   "header.volunteers": {
+    "written": "36",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "36"
+   },
+   "header.duration": {
+    "written": "22",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2.2"
+   },
+   "header.pounds": {
+    "written": "288",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "288"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "16",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "item.bottles-glass": {
+    "written": "9",
+    "startBox": 0,
+    "tally": 9,
+    "outside": false,
+    "expectFlags": [],
+    "value": "9"
+   },
+   "item.bottle-caps-plastic": {
+    "written": "16",
+    "startBox": 0,
+    "tally": 16,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "item.cans-pull-tabs": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.cups-foam": {
+    "written": "21",
+    "startBox": 0,
+    "tally": 21,
+    "outside": false,
+    "expectFlags": [],
+    "value": "21"
+   },
+   "item.cups-plastic": {
+    "written": "19",
+    "startBox": 0,
+    "tally": 19,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.food-wrappers": {
+    "written": "6",
+    "startBox": 0,
+    "tally": 6,
+    "outside": false,
+    "expectFlags": [],
+    "value": "6"
+   },
+   "item.lids": {
+    "written": "14",
+    "startBox": 0,
+    "tally": 14,
+    "outside": false,
+    "expectFlags": [],
+    "value": "14"
+   },
+   "item.plates-foam": {
+    "written": "3",
+    "startBox": 0,
+    "tally": 3,
+    "outside": false,
+    "expectFlags": [],
+    "value": "3"
+   },
+   "item.takeout-foam": {
+    "written": "26",
+    "startBox": 0,
+    "tally": 26,
+    "outside": false,
+    "expectFlags": [],
+    "value": "26"
+   },
+   "item.takeout-paper": {
+    "written": "29",
+    "startBox": 0,
+    "tally": 29,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.utensils": {
+    "written": "25",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "25"
+   },
+   "item.dog-waste-bagged": {
+    "written": "19",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "19"
+   },
+   "item.covid-items": {
+    "written": "2",
+    "startBox": 2,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.toilet-paper": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.protection": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.small-foam": {
+    "written": "42",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "42"
+   },
+   "item.small-glass": {
+    "written": "40",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "40"
+   },
+   "item.large-glass": {
+    "written": "29",
+    "startBox": 0,
+    "tally": 29,
+    "outside": false,
+    "expectFlags": [],
+    "value": "29"
+   },
+   "item.large-plastic": {
+    "written": "16",
+    "startBox": 0,
+    "tally": 16,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   }
+  },
+  "text": {
+   "header.name": "SMITH FAMILY",
+   "header.location": "NEVADA BEACH"
+  },
+  "ink": "pen"
+ },
+ {
+  "name": "curled",
+  "file": "curled.jpg",
+  "description": "A page bulging in the middle, which a single homography can't flatten",
+  "expect": {
+   "status": "rejected",
+   "code": "alignment-failed"
+  },
+  "numbers": {
+   "header.date": {
+    "written": "081326",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "08/13/26"
+   },
+   "header.volunteers": {
+    "written": "2",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "header.duration": {
+    "written": "24",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2.4"
+   },
+   "header.pounds": {
+    "written": "339",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "339"
+   },
+   "item.bags-plastic-grocery": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bags-plastic-other": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.bags-paper": {
+    "written": "20",
+    "startBox": 0,
+    "tally": 20,
+    "outside": false,
+    "expectFlags": [],
+    "value": "20"
+   },
+   "item.bottle-caps-plastic": {
+    "written": "18",
+    "startBox": 0,
+    "tally": 18,
+    "outside": false,
+    "expectFlags": [],
+    "value": "18"
+   },
+   "item.plates-plastic": {
+    "written": "27",
+    "startBox": 1,
+    "tally": 27,
+    "outside": false,
+    "expectFlags": [],
+    "value": "27"
+   },
+   "item.plates-paper": {
+    "written": "11",
+    "startBox": 1,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "11"
+   },
+   "item.takeout-foam": {
+    "written": "17",
+    "startBox": 0,
+    "tally": 17,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.takeout-plastic": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.takeout-paper": {
+    "written": "2",
+    "startBox": 2,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.utensils": {
+    "written": "26",
+    "startBox": 0,
+    "tally": 26,
+    "outside": false,
+    "expectFlags": [],
+    "value": "26"
+   },
+   "item.wildlife-waste-with-trash": {
+    "written": "4",
+    "startBox": 2,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "4"
+   },
+   "item.fireworks-consumer": {
+    "written": "16",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "16"
+   },
+   "item.fireworks-commercial": {
+    "written": "1",
+    "startBox": 0,
+    "tally": 1,
+    "outside": false,
+    "expectFlags": [],
+    "value": "1"
+   },
+   "item.sanitary-items": {
+    "written": "17",
+    "startBox": 0,
+    "tally": null,
+    "outside": false,
+    "expectFlags": [],
+    "value": "17"
+   },
+   "item.human-waste": {
+    "written": "2",
+    "startBox": 2,
+    "tally": 2,
+    "outside": false,
+    "expectFlags": [],
+    "value": "2"
+   },
+   "item.protection": {
+    "written": "27",
+    "startBox": 0,
+    "tally": 27,
+    "outside": false,
+    "expectFlags": [],
+    "value": "27"
+   },
+   "item.small-plastic": {
+    "written": "25",
+    "startBox": 0,
+    "tally": 25,
+    "outside": false,
+    "expectFlags": [],
+    "value": "25"
+   },
+   "item.large-foam": {
+    "written": "28",
+    "startBox": 0,
+    "tally": 28,
+    "outside": false,
+    "expectFlags": [],
+    "value": "28"
+   }
+  },
+  "text": {
+   "header.name": "BIJOU SCOUTS",
+   "header.location": "COVE EAST"
+  },
+  "ink": "pen"
+ }
+]

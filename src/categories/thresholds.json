@@ -1,0 +1,8 @@
+{
+  "autoSelect": 0.816,
+  "offer": 0.428,
+  "calibratedOn": "48 labelled pairs in tools/match-pairs.json",
+  "autoSelectPrecision": 1,
+  "autoSelectRecall": 0.172,
+  "offerRecall": 0.724
+}
